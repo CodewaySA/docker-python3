@@ -1,8 +1,8 @@
-FROM codewaysa/alpine:3.11.2_20200109
+FROM codewaysa/alpine:3.12.0_20200612
 
-LABEL org.python.version="3.8.1"
+LABEL org.python.version="3.8.3"
 LABEL image_name="codewaysa/python3"
 LABEL maintainer="l.lesinigo@codeway.ch"
 
 # add Python3
-RUN apk add --no-cache python3=3.8.1-r0
+RUN apk add --no-cache python3=3.8.3-r0
