@@ -5,4 +5,4 @@ LABEL image_name="codewaysa/python3"
 LABEL maintainer="l.lesinigo@codeway.ch"
 
 # add Python3
-RUN apk add --no-cache python3=3.7.7-r0
+RUN apk add --no-cache python3=3.7.7-r1
