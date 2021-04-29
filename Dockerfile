@@ -1,7 +1,7 @@
 FROM codewaysa/alpine:3.12.0_20201214
 
 LABEL org.python.version="3.8.5"
-LABEL image_name="codewaysa/python3"
+LABEL image-name="codewaysa/python3"
 LABEL maintainer="l.lesinigo@codeway.ch"
 
 # add Python3
