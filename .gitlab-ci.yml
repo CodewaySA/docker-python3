@@ -20,7 +20,7 @@ test:
   stage: test
   image: docker:stable
   script:
-    - docker run --rm $CI_PROJECT_NAME:$CI_COMMIT_SHORT_SHA python3 -c 'from sys import version_info; print(version_info); assert version_info[0:2] == (3, 8)'
+    - docker run --rm $CI_PROJECT_NAME:$CI_COMMIT_SHORT_SHA python3 -c 'from sys import version_info; print(version_info); assert version_info[0:2] == (3, 10)'
 
 cleanup:
   stage: cleanup
