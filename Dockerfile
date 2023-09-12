@@ -1,4 +1,4 @@
-FROM codewaysa/alpine:3.13.12_20230227
+FROM docker.io/codewaysa/alpine:3.13.12_20230712
 
 LABEL org.python.version="3.8.15"
 LABEL image-name="codewaysa/python3"
